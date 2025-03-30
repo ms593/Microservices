@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: welcome
+  config:
+    import: optional:configserver:http://localhost:9093  
